@@ -6,7 +6,7 @@ export default defineConfig({
     output: {
         dir: "dist",
         format: "es",
-        name: "package-to-ui",
+        name: "package-ui-proj1",
     },
     external: ["react", "react-dom"],
     plugins: [typescript({ tsconfig: "tsconfig.json" })],
